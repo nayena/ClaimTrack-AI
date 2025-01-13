@@ -1,6 +1,8 @@
+# frontend\app.py
 import streamlit as st
 
-st.tittle
+st.title("AI Advisor")
+c1, c2, c3 = st.columns(3)
 with c1:
     st.image("img/peep-21.png", width=325)
 
